@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width:device-width, initial-scale:1">
+<title>TimeLoop</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<style>
+body{
+background-color:black;
+margin:0;
+padding:0;}
+  
+
+
+#about{
+background-color:#78543b;
+color:white;
+padding:16px;
+margin:0;
+}
+
+
+
+header{background-color:#260d08;
+text-align:center;
+color:white;
+font-family:Garamond;
+margin: 0 px;
+padding:15px;
+width:100%
+}
+
+
+
+
+ul{background-color:white;
+overflow:hidden;
+
+
+list-style-type:none;
+margin:0px;
+padding:0px;
+
+}
+
+
+li{float:left;
+}
+
+li a{color:black;
+padding:24px;
+text-decoration:none;
+text-align:center;
+display:block;
+}
+li a:hover{
+background:black;
+color:white;
+}
+
+footer{background-color:#260d08;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+.products {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px ;
+    background: black;
+}
+
+.product {
+ box-sizing: border-box;
+    width: 20%; 
+    margin: 3%;
+    float: left;
+    background: #1c1c1c;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: Garamond;
+   
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.price {
+    color: #c69c6d; 
+    font-size: 18px;
+}
+
+
+
+</style>
+</head>
+<body>
+<header>
+<h1>Time Loop</h1>
+
+<h4>Luxury watches designed for those who value every moment</h4>
+
+</header>
+
+
+<nav>
+<ul>
+<li><a href="home.html"><b>home</b></a></li>
+<li><a href=explore.html><b>explore</b></a></li>
+<li><a href="about.html"><b>about us</b></a></li>
+<li><a href="profile.html"><b>profile</b></a></li>
+</ul>
+</nav>
+
+
+
+<video autoplay muted loop  style="width:100%;height:auto;display:block;margin:0px">
+<source src="headervid.mp4" type="video/mp4">
+</video>
+<section>
+<div></div>
+<div class="products">
+
+ <a href="home.html">  <div id="p1" class="product">
+       <img style="height:270px;" src="last1.jpg" alt="watch">
+        <h3>Chrono Master</h3>
+        <p class="price">$249</p>
+    </div>
+</a>
+</a>
+    <a href="home.html"> <div class="product">
+        <img style="height:270px" src="last2.jpg" alt="watch">
+        <h3>Elegance Pro</h3>
+        <p class="price">$299</p>
+    </div>
+</a>
+
+    <a href="home.html"> <div class="product">
+        <img style="height:270px"src="last3.jpg" alt="watch">
+        <h3>TimeLoop Royale</h3>
+        <p class="price">$349</p>
+    </div>
+</a>
+ <a href="home.html"><div id="p2" class="product">
+        <img style="height:270px" src="classic4.png" alt="watch">
+        <h3>Chrono Master</h3>
+        <p class="price">$249</p>
+    </div>
+</a>
+    <a href="home.html"> <div class="product">
+        <img style="height:270px" src="prof1.jpg" alt="watch">
+        <h3>Elegance Pro</h3>
+        <p class="price">$299</p>
+    </div>
+</a>
+ <a href="home.html"><div class="product">
+        <img style="height:270px"src="prof3.jpg" alt="watch">
+        <h3>TimeLoop Royale</h3>
+        <p class="price">$349</p>
+    </div>
+</a>
+ <a href="home.html"><div id="p3" class="product">
+        <img style="height:270px"  src="rolex1.jpg" alt="watch">
+        <h3>Chrono Master</h3>
+        <p class="price">$249</p>
+    </div>
+</a>
+
+     <a href="home.html"><div class="product">
+        <img style="height:270px" src="rolex2.jpg" alt="watch">
+        <h3>Elegance Pro</h3>
+        <p class="price">$299</p>
+    </div>
+</a>
+
+    <a href="home.html"> <div class="product">
+        <img style="height:270px"src="rolex3.jpg" alt="watch">
+        <h3>TimeLoop Royale</h3>
+        <p class="price">$349</p>
+    </div>
+</a>
+
+
+</div>
+
+
+</section>
+<section >
+<div id="about">
+
+<h1 >Seven pillars, one vision</h1>
+<p><i>Superlative. More than a word, it is a vision. A commitment. A commitment to designing and manufacturing increasingly reliable, high-performance watches. Inscribed on every dial, this word reflects our founding values.
+
+This vision of watchmaking is founded upon seven pillars that shape our identity: precision, waterproofness, self-winding mechanism, autonomy, resistance to magnetism, reliability, and durability.
+
+Seven pillars that inspire us to exceed standards and push boundaries. Seven pillars that serve every wearer, wherever their journey takes them. Seven pillars, mastered in their entirety, that make TIME LOOP unique in the watchmaking world.</i></p>
+</div>
+
+</section>
+
+
+
+<footer>
+<h2>TIME LOOP — Crafting Timeless Elegance</h2><br>
+
+<p>© 2025 Time Loop. All Rights Reserved.</p><br>
+
+<p>Privacy Policy | Terms of Service | Contact</p><br>
+</footer>
+</body>
+</html>
